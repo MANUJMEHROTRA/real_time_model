@@ -1,0 +1,76 @@
+{
+  "garments": [
+    {
+      "id": "polo-colourblock",
+      "name": "Colour-block Polo",
+      "category": "tops",
+      "image": "images/polo-colourblock.png",
+      "product_image": "images/polo-colourblock.jpg",
+      "description": "light blue and navy colour-block short-sleeve polo shirt",
+      "overlay": {
+        "anchors": {
+          "left_shoulder": [
+            0.746,
+            0.13
+          ],
+          "right_shoulder": [
+            0.251,
+            0.13
+          ],
+          "mid_hip": [
+            0.498,
+            0.93
+          ]
+        }
+      }
+    },
+    {
+      "id": "wrap-velvet-teal",
+      "name": "Velvet Wrap Top - Teal",
+      "category": "tops",
+      "image": "images/wrap-velvet-teal.png",
+      "product_image": "images/wrap-velvet-teal.jpg",
+      "description": "teal velvet short-sleeve wrap top with side tie",
+      "overlay": {
+        "anchors": {
+          "left_shoulder": [
+            0.806,
+            0.13
+          ],
+          "right_shoulder": [
+            0.255,
+            0.13
+          ],
+          "mid_hip": [
+            0.531,
+            0.93
+          ]
+        }
+      }
+    },
+    {
+      "id": "tee-red-tie",
+      "name": "Tie-front Tee - Red",
+      "category": "tops",
+      "image": "images/tee-red-tie.png",
+      "product_image": "images/tee-red-tie.jpg",
+      "description": "red cotton t-shirt with side tie detail",
+      "overlay": {
+        "anchors": {
+          "left_shoulder": [
+            0.723,
+            0.13
+          ],
+          "right_shoulder": [
+            0.267,
+            0.13
+          ],
+          "mid_hip": [
+            0.495,
+            0.93
+          ]
+        }
+      }
+    }
+  ]
+}

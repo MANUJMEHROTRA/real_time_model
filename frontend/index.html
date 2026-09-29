@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Virtual Fitting Room</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main id="stage">
+    <video id="video" playsinline muted></video>
+    <canvas id="canvas"></canvas>
+
+    <div id="status" class="pill">Starting camera…</div>
+    <div id="fps" class="pill small"></div>
+    <div id="hint" class="hint hidden">Step back so your shoulders and hips are in view</div>
+    <div id="countdown" class="countdown hidden"></div>
+    <div id="flash" class="flash"></div>
+
+    <section id="controls">
+      <div id="garment-name"></div>
+      <div id="carousel"></div>
+      <button id="capture" disabled>Try it on</button>
+    </section>
+  </main>
+
+  <div id="result" class="modal hidden">
+    <div class="modal-card">
+      <div id="result-loading">
+        <div class="spinner"></div>
+        <p>Creating your look… this can take up to a minute</p>
+      </div>
+      <img id="result-img" alt="Your try-on result" class="hidden" />
+      <p id="result-error" class="error hidden"></p>
+      <div class="modal-actions">
+        <a id="download" class="btn secondary hidden" download="my-look.jpg">Save photo</a>
+        <button id="close" class="btn">Try another</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
